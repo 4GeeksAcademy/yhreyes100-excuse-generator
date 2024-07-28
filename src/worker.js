@@ -15,6 +15,6 @@ function newExcuse() {
     what[Math.floor(Math.random() * what.length)] +
     when[Math.floor(Math.random() * when.length)];
   postMessage(r);
-  setTimeout("newExcuse()", 1000);
+  setTimeout("newExcuse()", 800);
 }
 newExcuse();
